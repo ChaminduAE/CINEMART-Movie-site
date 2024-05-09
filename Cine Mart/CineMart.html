@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cine Mart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="brand">Cine<span class="main-color">M</span>art</a>
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="Home.html">Home</a>
+                    <a href="Home.html#Upcoming">Upcoming</a>
+                    <a href="Home.html#Editor's_pick">Editor's Pick</a>
+                    <a href="Home.html#Trending now">Trending Now</a>
+                    
+                </div>
+            </div>
+        </header>
+        <section class="home">
+            <div class="content">
+                <h1 class="bigg">Am<span class="main-color">az</span>ing.<br><span class="big">Mo<span class="main-color">v</span>ies</span></h1>
+                <p>Welcome to Cinemart, your one-stop destination for all things cinematic! Get ready to embark on a thrilling journey through a world of movies that will captivate, entertain, and inspire you. With an extensive collection of films from every genre and era, we're here to make every movie night unforgettable. Join us, and let the magic of movies come to life at Cinemart!</p>
+                <a href="Home.html">Explore</a>
+            </div>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <!-- New Section (Movie Poster and Email Signup/Log In) -->
+    <section class="movie-poster">
+        <div class="movie-info">
+            <img id="poster-image" src="mortal.jpg" alt="Movie Poster">
+        </div>
+        <div class="signup-form">
+            <h2><u>Join Cinemart Today!</u><br><br></h2>
+            <p><b>#Discover a World of Movies</b></p>
+            <p><b>#Personalized Recommendations</b></p>
+            <p><b>#Community of Film Lovers</b></p>
+               
+                <a href  = "Sign.html">Sign Up</a>
+       
+            <p><br>Already a member? <a href="Sign.html">Log in here</a></p>
+        </div>
+    </section>
+
+    <!-- JavaScript for changing the poster -->
+    <script>
+        // Array of movie poster filenames (relative paths)
+        const posterImages = [
+            "images/mortal.jpg",
+            "images/joker.jpg",
+            "images/batman.jpg",
+            "images/rampage.jpg",
+        ];
+
+        // Function to change the movie poster image at regular intervals
+        function changePoster() {
+            const posterImage = document.getElementById("poster-image");
+            let currentIndex = 0;
+
+            setInterval(() => {
+                posterImage.src = posterImages[currentIndex];
+                currentIndex = (currentIndex + 1) % posterImages.length;
+            }, 2000); 
+        }
+
+        // Call the function to start changing the poster
+        changePoster();
+    </script>
+<!-- New Section (Categories) -->
+<section class="categories">
+    
+    <div class="category">
+        
+        <a href = "Home.html#Upcoming"><img src="images/the-black-demon.jpg" alt="upcoming"></a>
+        <h3>Upcoming Movies</h3>
+        <p>Discover the Upcoming Movies.</p>
+     
+    </div>
+    
+   
+    <div class="category">
+        <a href  = "Home.html#Editor's_pick"><img src="images/openheimer.jpg" alt="Editors' Pick"></a>
+        <h3>Editors' Pick</h3>
+        <p>Our editors' favorite movies for you.</p>
+       
+    </div>
+    
+   
+    <div class="category">
+        <a href = "Home.html#Trending now">
+        <img src="images/barbie.jpg" alt="Trending Now"></a>
+        <h3>Trending Now</h3>
+        <p>Stay updated with the latest movie trends.</p>
+      
+    </div>
+    </a>
+</section>
+
+<!-- New Section (Pricing and Plans) -->
+<section class="pricing-plans">
+    <div class="plan">
+        <h3>Basic Plan</h3>
+        <p>Perfect for movie enthusiasts on a budget.</p>
+        <h2>$5.00/month</h2>
+        <ul>
+            <li>Access to a limited selection of movies.</li>   
+            <li>Standard video quality (e.g., 480p).</li>
+            <li>Ad-free experience.</li>
+            <li>Single-device streaming at a time.</li>
+        </ul>
+        <a href="https://buy.stripe.com/test_dR69DB7GB0OAcHCcMN">Subscribe Now</a>
+    </div>
+    <div class="plan">
+        <h3>Pro Plan</h3>
+        <p>For those who want more movie magic.</p>
+        <h2>$10.00/month</h2>
+        <ul>
+        <li>Access to a larger library of movies and exclusive content.</li>
+        <li>High-definition (HD) video quality (e.g., 720p/1080p).</li>
+        <li>Ad-free experience.</li>
+        <li>Simultaneous streaming on up to two devices.</li>
+        </ul>
+        <a href="https://buy.stripe.com/test_dR69DB7GB0OAcHCcMN">Subscribe Now</a>
+    </div>
+    <div class="plan">
+        <h3>Premium Plan</h3>
+        <p>Unlock the ultimate movie experience.</p>
+        <h2>$15.00/month</h2>
+        <ul>
+            <li>Access to the entire movie catalog, including 4K and HDR content</li>
+            <li>Ad-free experience</li>
+            <li>Simultaneous streaming on multiple devices</li>
+            <li>Offline downloads for on-the-go viewing</li>
+        </ul>
+        <a href="https://buy.stripe.com/test_dR69DB7GB0OAcHCcMN">Subscribe Now</a>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-links">
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Terms of Use</a></li>
+        </ul>
+    </div>
+    <div class="footer-text">
+        <p>&copy; 2023 Cine Mart. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

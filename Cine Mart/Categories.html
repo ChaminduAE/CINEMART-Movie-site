@@ -1,0 +1,808 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>generes</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Cine<span style="color: red;">M</span>art</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <!-- Add home page -->
+                    <!-- <li class="menu-list-item active"><a href="#">Home</a></li> -->
+                    <li class="menu-list-item active" style="cursor: pointer;"><a href="Home.html">Home</a></li>
+                    <li class="menu-list-item" style="cursor: pointer;">
+                        <div class="dropdown">
+                            <span>Genere</span>
+                            <div class="dropdown_content">
+                                <a href="#comedy" style="text-decoration: none; font-weight: bold; color: #4dbf00;"><div>Comedy</div></a>
+                                <a href="#thriller" style="text-decoration: none; font-weight: bold; color: #4dbf00;"><div>Thriller</div></a>
+                                <a href="#romance" style="text-decoration: none; font-weight: bold; color: #4dbf00;"><div>Romance</div></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-list-item" style="cursor: pointer;"><a href = "Home.html#Trending now">Trending Now</a></li>
+                 
+                </ul>
+            </div>
+            <div class="profile-container">
+                
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">
+                    Adventure/Comedy ‧ 1h 48m<br>
+                    <img src="img/rating.png" style="width: 5vw; height: 1vw;">
+                    4.3/10 IMDb
+                </p>
+                <button class="featured-button">WATCH</button>
+                <button class="featured-button"><a href= "https://www.youtube.com/watch?v=Pj0wz7zu3Ms">TRAILER</a></button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Lucky Man</span>
+                            <p class="movie-list-item-desc">
+                                Comedy ‧ 2h 14m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                8.6/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Reptile</span>
+                            <p class="movie-list-item-desc">
+                                Crime/Thriller ‧ 2h 14m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.9/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <!-- -------COMEDY----- -->
+            <div class="featured-content" id="comedy"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/c8.jpg');">
+                <img class="featured-title" src="img/Red_Notice_logo.png" alt="">
+                <p class="featured-desc">
+                    Action/Comedy ‧ 1h 58m<br>
+                    <img src="img/rating.png" style="width: 5vw; height: 1vw;">
+                    6.3/10 IMDb
+                </p>
+                <button class="featured-button">WATCH</button>
+                <button class="featured-button">TRAILER</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR COMEDIES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c1.jpg" alt="">
+                            <span class="movie-list-item-title">No Hard Feelings</span>
+                            <p class="movie-list-item-desc">
+                                Comedy ‧ 1h 43m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                3.7/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c2.jpg" alt="">
+                            <span class="movie-list-item-title">Spy Kids</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c3.jpeg" alt="">
+                            <span class="movie-list-item-title">The Lost City</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 52m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.1/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c4.jpg" alt="">
+                            <span class="movie-list-item-title">Murder Mystery</span>
+                            <p class="movie-list-item-desc">
+                                Mystery/Comedy ‧ 1h 29m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                5.7/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c5.jpeg" alt="">
+                            <span class="movie-list-item-title">Don't Look Up</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Disaster ‧ 2h 25m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                7.2/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c6.jpeg" alt="">
+                            <span class="movie-list-item-title">Babylon</span>
+                            <p class="movie-list-item-desc">
+                                Drama/Comedy ‧ 3h 9m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                7.1/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c7.jpeg" alt="">
+                            <span class="movie-list-item-title">Bullet Train</span>
+                            <p class="movie-list-item-desc">
+                                Action/Comedy ‧ 2h 6m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                7.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP PICKS FOR YOU</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c9.jpeg" alt="">
+                            <span class="movie-list-item-title">Johnny English</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 29m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.2/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c10.jpeg" alt="">
+                            <span class="movie-list-item-title">Get Smart</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 29m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.5/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/c11.jpeg" alt="">
+                            <span class="movie-list-item-title">Central Intelligence</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <!-- -------TRILLER----- -->
+            <div class="featured-content" id="thriller"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/paradise.jpg');">
+                <img class="featured-title" src="img/paradese_logo.png" alt="">
+                <p class="featured-desc">
+                    Thriller ‧ 1h 48m<br>
+                    <img src="img/rating.png" style="width: 5vw; height: 1vw;">
+                    6.3/10 IMDb
+                </p>
+                <button class="featured-button">WATCH</button>
+                <button class="featured-button">TRAILER</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR TRILLERS</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP PICKS FOR YOU</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Comedy/Action ‧ 1h 54m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                6.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <!-- romance -->
+            <div class="featured-content" id="romance"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/love.jpg'); background-repeat: no-repeat; background-size: cover;">
+                <img class="featured-title" src="img/t2.png" alt="">
+                <p class="featured-desc">
+                    Drama ‧ 1h 31m<br>
+                    <img src="img/rating.png" style="width: 5vw; height: 1vw;">
+                    6.9/10 IMDb
+                </p>
+                <button class="featured-button">WATCH</button>
+                <button class="featured-button">TRAILER</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">POPULAR ROMANCE</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">TOP PICKS FOR YOU</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">
+                                Adventure/Comedy ‧ 1h 48m<br>
+                                <span class="rating_logo">MMMMMM</span>
+                                4.3/10 IMDb
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                            <button class="movie-list-item-button">Trailer</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+ <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-links">
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="privacy.html">Terms of Use</a></li>
+        </ul>
+    </div>
+    <div class="footer-text">
+        <p>&copy; 2023 Cine Mart. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="generes.js"></script>
+</body>
+
+</html>
